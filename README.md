@@ -14,7 +14,7 @@ A web application to simplify gym operations. This ongoing project helps me prac
 ## 📄 Resume / CV
 
 You can view or download my CV here:  
-- 📄 Download my CV: **[giaphuccv.pdf](https://github.com/hytu4535/hytu4535/raw/main/giaphuccv.pdf)** (Click to download)
+- 📄 Download my CV: **[giaphuccv.pdf](https://github.com/ngogiaphuc/ngogiaphuc/raw/main/giaphuccv.pdf)** (Click to download)
 ## 🛠️ Tech Stack
 
 **Languages**:  
