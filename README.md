@@ -32,7 +32,7 @@ You can view or download my CV here:
 ## 📫 Let's Connect
 
 - Email: **ngogiaphuc229@gmail.com**
-- GitHub: [@hytu4535](https://github.com/hytu4535)
+- GitHub: [@giaphuc][https://github.com/ngogiaphuc/ngogiaphuc]
 
 ---
 
