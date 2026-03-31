@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ngo Gia Phuc – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">&lt;GiaPhuc /&gt;</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hi there 👋, I'm</p>
+      <h1 class="hero-name">Ngo Gia Phuc</h1>
+      <h2 class="hero-role">
+        <span class="role-prefix">I'm a </span>
+        <span class="role-text" id="typingText"></span>
+        <span class="cursor">|</span>
+      </h2>
+      <p class="hero-sub">Computer Science student at Sai Gon University<br />Building my skills one commit at a time.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="https://github.com/ngogiaphuc/ngogiaphuc/raw/main/giaphuccv.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          <i class="fa-solid fa-download"></i> Download CV
+        </a>
+      </div>
+      <div class="hero-social">
+        <a href="https://github.com/ngogiaphuc" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:ngogiaphuc229@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll down</span>
+      <i class="fa-solid fa-chevron-down bounce"></i>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-avatar">
+          <div class="avatar-ring">
+            <div class="avatar-inner">
+              <i class="fa-solid fa-code avatar-icon"></i>
+            </div>
+          </div>
+          <div class="avatar-badge">
+            <i class="fa-solid fa-graduation-cap"></i> CS Student
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            I'm <strong>Ngo Gia Phuc</strong>, a passionate Computer Science student at
+            <strong>Sai Gon University</strong>. I love building web applications and solving
+            real-world problems through code.
+          </p>
+          <p>
+            Currently exploring the world of <strong>full-stack development</strong>, I enjoy
+            working across the entire stack — from crafting clean UIs to designing efficient
+            back-end logic and databases.
+          </p>
+          <p>
+            When I'm not coding, I'm learning new technologies, contributing to projects,
+            and pushing commits to improve my craft every day.
+          </p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">1+</span><span class="stat-label">Year of Coding</span></div>
+            <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Techs Learned</span></div>
+            <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Passion for Code</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">Tech <span class="accent">Stack</span></h2>
+      <p class="section-subtitle">Technologies I work with</p>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-terminal"></i> Languages</h3>
+          <div class="skill-tags">
+            <span class="tag tag-blue"><i class="fa-brands fa-java"></i> Java</span>
+            <span class="tag tag-purple">C++</span>
+            <span class="tag tag-yellow"><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span class="tag tag-pink">PHP</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-globe"></i> Web Development</h3>
+          <div class="skill-tags">
+            <span class="tag tag-orange"><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span class="tag tag-blue"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span class="tag tag-yellow"><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span class="tag tag-pink">PHP</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-database"></i> Database</h3>
+          <div class="skill-tags">
+            <span class="tag tag-blue"><i class="fa-solid fa-database"></i> MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-wrench"></i> Tools</h3>
+          <div class="skill-tags">
+            <span class="tag tag-dark"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="tag tag-dark"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="tag tag-blue">VS Code</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+      <p class="section-subtitle">Things I've built</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-top">
+            <i class="fa-solid fa-folder-open project-icon"></i>
+            <div class="project-links">
+              <a href="https://github.com/hytu4535/Gym-Management-Web" target="_blank" rel="noopener noreferrer" aria-label="View repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">💪 Gym Management Web</h3>
+          <p class="project-desc">
+            A full-stack web application to simplify gym operations. Handles member management
+            and membership tracking for day-to-day gym workflows.
+          </p>
+          <ul class="project-features">
+            <li><i class="fa-solid fa-check"></i> Member management</li>
+            <li><i class="fa-solid fa-check"></i> Membership tracking</li>
+          </ul>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+          </div>
+        </div>
+
+        <!-- Placeholder card -->
+        <div class="project-card project-card--coming">
+          <div class="project-top">
+            <i class="fa-solid fa-code project-icon"></i>
+          </div>
+          <h3 class="project-title">More Coming Soon…</h3>
+          <p class="project-desc">
+            I'm actively working on new projects. Stay tuned and check my GitHub for the latest updates.
+          </p>
+          <a href="https://github.com/ngogiaphuc" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+            <i class="fa-brands fa-github"></i> View GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-alt" id="contact">
+    <div class="container contact-container">
+      <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+      <p class="section-subtitle">
+        I'm open to collaborations, internships, and interesting conversations.<br />
+        Feel free to reach out!
+      </p>
+      <div class="contact-cards">
+        <a href="mailto:ngogiaphuc229@gmail.com" class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">ngogiaphuc229@gmail.com</span>
+          </div>
+        </a>
+        <a href="https://github.com/ngogiaphuc" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <i class="fa-brands fa-github"></i>
+          <div>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">@ngogiaphuc</span>
+          </div>
+        </a>
+      </div>
+      <a href="https://github.com/ngogiaphuc/ngogiaphuc/raw/main/giaphuccv.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary mt-lg">
+        <i class="fa-solid fa-file-pdf"></i> View / Download CV
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; built by <strong>Ngo Gia Phuc</strong></p>
+      <p class="footer-sub">
+        <a href="https://github.com/ngogiaphuc/ngogiaphuc" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i> Source on GitHub
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
