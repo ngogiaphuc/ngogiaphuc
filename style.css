@@ -368,6 +368,7 @@ img { max-width: 100%; }
 .tag-orange { background: rgba(255,159,67,.12); color: var(--orange); border-color: rgba(255,159,67,.2); }
 .tag-pink   { background: rgba(253,121,168,.12);color: var(--pink);   border-color: rgba(253,121,168,.2); }
 .tag-dark   { background: rgba(255,255,255,.06); color: var(--text);  border-color: rgba(255,255,255,.1); }
+.tag-green  { background: rgba(0,217,163,.12);  color: var(--green); border-color: rgba(0,217,163,.2); }
 
 /* ---------- PROJECTS ---------- */
 .projects-grid {
@@ -441,6 +442,66 @@ img { max-width: 100%; }
   background: rgba(108,99,255,.1);
   padding: 3px 10px;
   border-radius: 4px;
+}
+
+/* ---------- EDUCATION ---------- */
+.edu-card {
+  display: flex;
+  gap: 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.edu-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(108,99,255,.15);
+  border: 2px solid var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.edu-header h3 {
+  font-size: 1.15rem;
+  color: var(--text);
+}
+.edu-date {
+  font-size: .82rem;
+  color: var(--accent-light);
+  background: rgba(108,99,255,.12);
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.edu-degree {
+  color: var(--text-muted);
+  font-size: .95rem;
+  margin-top: 4px;
+}
+.edu-courses {
+  margin-top: 14px;
+  font-size: .85rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+.edu-courses-label {
+  font-weight: 600;
+  color: var(--accent-light);
+  margin-right: 6px;
 }
 
 /* ---------- CONTACT ---------- */
