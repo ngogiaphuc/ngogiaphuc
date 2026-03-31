@@ -18,6 +18,7 @@
       <a href="#hero" class="nav-logo">&lt;GiaPhuc /&gt;</a>
       <ul class="nav-links" id="navLinks">
         <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -42,7 +43,7 @@
       <p class="hero-sub">Computer Science student at Sai Gon University<br />Building my skills one commit at a time.</p>
       <div class="hero-buttons">
         <a href="#projects" class="btn btn-primary">View Projects</a>
-        <a href="https://github.com/ngogiaphuc/ngogiaphuc/raw/main/giaphuccv.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+        <a href="giaphuccv.pdf" download="giaphuccv.pdf" class="btn btn-outline">
           <i class="fa-solid fa-download"></i> Download CV
         </a>
       </div>
@@ -97,6 +98,29 @@
     </div>
   </section>
 
+  <!-- ===== EDUCATION ===== -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <h2 class="section-title">Edu<span class="accent">cation</span></h2>
+      <div class="edu-card">
+        <div class="edu-left">
+          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-header">
+            <h3>Sai Gon University</h3>
+            <span class="edu-date">Expected June 2026</span>
+          </div>
+          <p class="edu-degree">B.S. Computer Science</p>
+          <div class="edu-courses">
+            <span class="edu-courses-label">Relevant Coursework:</span>
+            Object-Oriented Programming · Data Structures &amp; Algorithms · Embedded Systems · Discrete Math · Linear Algebra · Calculus · Physics · Probability &amp; Statistics
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ===== SKILLS ===== -->
   <section class="section section-alt" id="skills">
     <div class="container">
@@ -107,9 +131,11 @@
         <div class="skill-category">
           <h3><i class="fa-solid fa-terminal"></i> Languages</h3>
           <div class="skill-tags">
+            <span class="tag tag-purple">C/C++</span>
+            <span class="tag tag-blue"><i class="fa-brands fa-python"></i> Python</span>
             <span class="tag tag-blue"><i class="fa-brands fa-java"></i> Java</span>
-            <span class="tag tag-purple">C++</span>
             <span class="tag tag-yellow"><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span class="tag tag-blue">TypeScript</span>
             <span class="tag tag-pink">PHP</span>
           </div>
         </div>
@@ -121,6 +147,8 @@
             <span class="tag tag-blue"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
             <span class="tag tag-yellow"><i class="fa-brands fa-js"></i> JavaScript</span>
             <span class="tag tag-pink">PHP</span>
+            <span class="tag tag-blue"><i class="fa-brands fa-react"></i> React</span>
+            <span class="tag tag-green">Node.js</span>
           </div>
         </div>
 
@@ -128,6 +156,8 @@
           <h3><i class="fa-solid fa-database"></i> Database</h3>
           <div class="skill-tags">
             <span class="tag tag-blue"><i class="fa-solid fa-database"></i> MySQL</span>
+            <span class="tag tag-orange">REST API</span>
+            <span class="tag tag-green">PDO</span>
           </div>
         </div>
 
@@ -137,6 +167,8 @@
             <span class="tag tag-dark"><i class="fa-brands fa-git-alt"></i> Git</span>
             <span class="tag tag-dark"><i class="fa-brands fa-github"></i> GitHub</span>
             <span class="tag tag-blue">VS Code</span>
+            <span class="tag tag-orange">XAMPP</span>
+            <span class="tag tag-purple">Vite</span>
           </div>
         </div>
 
@@ -153,7 +185,7 @@
 
         <div class="project-card">
           <div class="project-top">
-            <i class="fa-solid fa-folder-open project-icon"></i>
+            <i class="fa-solid fa-dumbbell project-icon"></i>
             <div class="project-links">
               <a href="https://github.com/hytu4535/Gym-Management-Web" target="_blank" rel="noopener noreferrer" aria-label="View repository">
                 <i class="fa-brands fa-github"></i>
@@ -162,30 +194,40 @@
           </div>
           <h3 class="project-title">💪 Gym Management Web</h3>
           <p class="project-desc">
-            A full-stack web application to simplify gym operations. Handles member management
-            and membership tracking for day-to-day gym workflows.
+            Full-stack web app with separate <strong>admin &amp; client portals</strong> for managing gym members, packages, trainers, and equipment.
           </p>
           <ul class="project-features">
-            <li><i class="fa-solid fa-check"></i> Member management</li>
-            <li><i class="fa-solid fa-check"></i> Membership tracking</li>
+            <li><i class="fa-solid fa-check"></i> Role-Based Access Control (RBAC)</li>
+            <li><i class="fa-solid fa-check"></i> Loyalty tier system with auto upgrades</li>
+            <li><i class="fa-solid fa-check"></i> E-commerce flow with promotions &amp; order tracking</li>
+            <li><i class="fa-solid fa-check"></i> Session-based auth &amp; AJAX dynamic UI</li>
           </ul>
           <div class="project-tech">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+            <span>PHP</span><span>MySQL</span><span>PDO</span><span>AdminLTE</span><span>AJAX</span><span>XAMPP</span>
           </div>
         </div>
 
-        <!-- Placeholder card -->
-        <div class="project-card project-card--coming">
+        <div class="project-card">
           <div class="project-top">
-            <i class="fa-solid fa-code project-icon"></i>
+            <i class="fa-solid fa-mobile-screen project-icon"></i>
+            <div class="project-links">
+              <a href="https://github.com/ngogiaphuc" target="_blank" rel="noopener noreferrer" aria-label="View repository">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
           </div>
-          <h3 class="project-title">More Coming Soon…</h3>
+          <h3 class="project-title">📱 Mobile Device Store</h3>
           <p class="project-desc">
-            I'm actively working on new projects. Stay tuned and check my GitHub for the latest updates.
+            Full-stack web app for managing and selling mobile devices — products, categories, variants, cart, orders, and user accounts.
           </p>
-          <a href="https://github.com/ngogiaphuc" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
-            <i class="fa-brands fa-github"></i> View GitHub
-          </a>
+          <ul class="project-features">
+            <li><i class="fa-solid fa-check"></i> RESTful API with MySQL integration</li>
+            <li><i class="fa-solid fa-check"></i> Inventory tracking &amp; order processing</li>
+            <li><i class="fa-solid fa-check"></i> Role-based admin panel</li>
+          </ul>
+          <div class="project-tech">
+            <span>React</span><span>Vite</span><span>Node.js</span><span>MySQL</span><span>REST API</span><span>Axios</span>
+          </div>
         </div>
 
       </div>
@@ -216,7 +258,7 @@
           </div>
         </a>
       </div>
-      <a href="https://github.com/ngogiaphuc/ngogiaphuc/raw/main/giaphuccv.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary mt-lg">
+      <a href="giaphuccv.pdf" download="giaphuccv.pdf" class="btn btn-primary mt-lg">
         <i class="fa-solid fa-file-pdf"></i> View / Download CV
       </a>
     </div>
